@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226, 84, 179);
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(156, 32, 115);
+    padding: 2rem;
+    border-radius: 2rem;
+    min-width: 16rem;
+    min-height: 23rem;
+    width: 25%;
+    height: 75%;
+}
+
+img{
+    width: 20rem;
+    height: 20rem;
+}
